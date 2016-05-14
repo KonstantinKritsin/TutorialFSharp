@@ -51,6 +51,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Tutorial.fsx" />
+    <Compile Include="Test.fs" />
+    <None Include="TheDescent.fsx" />
+    <None Include="SkynetTheChasm.fsx" />
+    <None Include="MarsLanderLevel1.fsx" />
+    <None Include="Temperatures.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

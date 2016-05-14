@@ -120,9 +120,11 @@ module StringManipulation =
 
     /// Using a triple-quote string literal
     let string4 = """He said "hello world" after you did"""
-
+    
     let helloWorld = string1 + " " + string2 // concatenate the two strings with a space in between
     printfn "%s" helloWorld
+
+    helloWorld.Split([|" "|], System.StringSplitOptions.RemoveEmptyEntries)
 
     /// A string formed by taking the first 7 characters of one of the result strings
     let substring = helloWorld.[0..6]
