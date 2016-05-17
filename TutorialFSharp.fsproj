@@ -52,10 +52,13 @@
   <ItemGroup>
     <Compile Include="Tutorial.fsx" />
     <Compile Include="Test.fs" />
-    <None Include="TheDescent.fsx" />
-    <None Include="SkynetTheChasm.fsx" />
-    <None Include="MarsLanderLevel1.fsx" />
-    <None Include="Temperatures.fsx" />
+    <Compile Include="TheDescent.fs" />
+    <Compile Include="SkynetTheChasm.fs" />
+    <Compile Include="MarsLanderLevel1.fs" />
+    <Compile Include="Temperatures.fs" />
+    <Compile Include="ASCIIArt.fs" />
+    <Compile Include="MIMEType.fs" />
+    <Compile Include="Horse-racingDuals.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

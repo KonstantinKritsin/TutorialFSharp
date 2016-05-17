@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 class Player
 {
@@ -30,5 +31,17 @@ class Player
             // A single line containing one of 4 keywords: SPEED, SLOW, JUMP, WAIT.
             Console.WriteLine(command);
         }
+        var s = new StringBuilder();
+
+        var init = "CC";
+        foreach (var ch in init)
+        {
+
+            for (int i = 0; i < 128; i = i<<1)
+            {
+                
+            }
+        }
+
     }
 }
