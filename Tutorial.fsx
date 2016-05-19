@@ -334,7 +334,7 @@ module Sequences =
     let evenNumbers = Seq.init 1001 (fun n -> n * 2) 
 
     let rnd = System.Random()
-
+    Seq.exists
     /// An infinite sequence which is a random walk
     //  Use yield! to return each element of a subsequence, similar to IEnumerable.SelectMany.
     let rec randomWalk x =
