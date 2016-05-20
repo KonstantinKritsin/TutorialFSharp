@@ -1,4 +1,5 @@
 ﻿module SkynetTheVirus
+
 open System
 
 type Node(id: int) = 

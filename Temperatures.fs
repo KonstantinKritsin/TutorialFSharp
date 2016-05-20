@@ -1,5 +1,7 @@
 ﻿(* Auto-generated code below aims at helping you parse *)
 (* the standard input according to the problem statement. *)
+module Temperatures
+
 open System
 
 let n = int(Console.In.ReadLine()) (* the number of temperatures to analyse *)

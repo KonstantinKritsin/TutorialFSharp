@@ -1,5 +1,7 @@
 ﻿(* Auto-generated code below aims at helping you parse *)
 (* the standard input according to the problem statement. *)
+module MIMEType
+
 open System
 
 let N = int(Console.In.ReadLine()) (* Number of elements which make up the association table. *)

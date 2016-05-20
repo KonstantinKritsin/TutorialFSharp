@@ -1,5 +1,7 @@
 ﻿(* Auto-generated code below aims at helping you parse *)
 (* the standard input according to the problem statement. *)
+module TheDescent
+
 open System
 
 let init n = Array.init n (fun i -> int(Console.In.ReadLine()))

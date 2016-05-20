@@ -1,5 +1,7 @@
 ﻿(* Auto-generated code below aims at helping you parse *)
 (* the standard input according to the problem statement. *)
+module SkynetTheChasm
+
 open System
 
 let road = int(Console.In.ReadLine()) (* the length of the road before the gap. *)

@@ -1,5 +1,7 @@
 ﻿(* Auto-generated code below aims at helping you parse *)
 (* the standard input according to the problem statement. *)
+module ASCIIArt
+
 open System
 open System.Text
 

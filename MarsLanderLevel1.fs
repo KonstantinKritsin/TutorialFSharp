@@ -1,5 +1,7 @@
 ﻿(* Auto-generated code below aims at helping you parse *)
 (* the standard input according to the problem statement. *)
+module MarsLanderLevel1
+
 open System
 open System.Collections
 open System.Collections.Generic

@@ -1,5 +1,7 @@
 ﻿(* Auto-generated code below aims at helping you parse *)
 (* the standard input according to the problem statement. *)
+module HorseRacingDuals
+
 open System
 
 let N = int(Console.In.ReadLine())

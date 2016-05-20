@@ -60,6 +60,7 @@
     <Compile Include="MIMEType.fs" />
     <Compile Include="Horse-racingDuals.fs" />
     <Compile Include="SkynetTheVirus_LinkedListGraph.fs" />
+    <Compile Include="SkynetTheVirus_MatrixGraph.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
