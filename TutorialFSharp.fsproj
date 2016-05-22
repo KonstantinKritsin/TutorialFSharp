@@ -61,6 +61,8 @@
     <Compile Include="Horse-racingDuals.fs" />
     <Compile Include="SkynetTheVirus_LinkedListGraph.fs" />
     <Compile Include="SkynetTheVirus_MatrixGraph.fs" />
+    <Compile Include="HeatDetector.fs" />
+    <Compile Include="TheParanoidAndroid.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
