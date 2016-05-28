@@ -50,6 +50,7 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SkynetStrikesBack_MatrixGraph.fs" />
     <Compile Include="Tutorial.fsx" />
     <Compile Include="Test.fs" />
     <Compile Include="TheDescent.fs" />
@@ -60,9 +61,11 @@
     <Compile Include="MIMEType.fs" />
     <Compile Include="Horse-racingDuals.fs" />
     <Compile Include="SkynetTheVirus_LinkedListGraph.fs" />
-    <Compile Include="SkynetTheVirus_MatrixGraph.fs" />
     <Compile Include="HeatDetector.fs" />
     <Compile Include="TheParanoidAndroid.fs" />
+    <Compile Include="TeadsSponsoredContest.fs" />
+    <Compile Include="SkynetTheVirus_MatrixGraph.fs" />
+    <Compile Include="StockExchangeLosses.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
