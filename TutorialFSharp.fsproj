@@ -66,6 +66,11 @@
     <Compile Include="TeadsSponsoredContest.fs" />
     <Compile Include="SkynetTheVirus_MatrixGraph.fs" />
     <Compile Include="StockExchangeLosses.fs" />
+    <Compile Include="IndianaLevel1.fs" />
+    <Compile Include="ConwaySequence.fs" />
+    <Compile Include="NetworkCabling.fs" />
+    <Compile Include="TelephoneNumbers.fs" />
+    <Compile Include="Scrabble.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
