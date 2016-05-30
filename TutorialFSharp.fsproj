@@ -71,6 +71,8 @@
     <Compile Include="NetworkCabling.fs" />
     <Compile Include="TelephoneNumbers.fs" />
     <Compile Include="Scrabble.fs" />
+    <Compile Include="TheGift.fs" />
+    <Compile Include="MayanCalculation.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
