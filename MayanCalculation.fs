@@ -1,4 +1,6 @@
-﻿open System
+﻿module MayanCalculation
+
+open System
 let R() = Console.In.ReadLine()
 
 let token = R().Split [|' '|]
