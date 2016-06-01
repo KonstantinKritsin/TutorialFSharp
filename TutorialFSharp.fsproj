@@ -74,6 +74,7 @@
     <Compile Include="TheGift.fs" />
     <Compile Include="MayanCalculation.fs" />
     <Compile Include="Chesscavalry.fs" />
+    <Compile Include="Dwarfsstandingontheshouldersofgiants.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

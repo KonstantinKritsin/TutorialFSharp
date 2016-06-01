@@ -1,7 +1,7 @@
-﻿(* Auto-generated code below aims at helping you parse *)
-(* the standard input according to the problem statement. *)
+﻿module TeadsSponsoredContest
 open System
 open System.Collections.Generic
+
 let R() = Console.In.ReadLine()
 
 type Node(id: int) = 
@@ -35,11 +35,6 @@ for i in 0 .. linkCount - 1 do
 
 let leaf = nodes.Values |> Seq.find (fun n -> n.Links.Length = 1)
 let maxDist = GetMaxDistance leaf leaf
-
-
-(* Write an action using printfn *)
-(* To debug: Console.Error.WriteLine("Debug message") *)
-
 
 (* The minimal amount of steps required to completely propagate the advertisement *)
 printfn "%d" <| int(Math.Round(float(maxDist)/float(2),  MidpointRounding.AwayFromZero))

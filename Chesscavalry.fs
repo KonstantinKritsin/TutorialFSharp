@@ -63,32 +63,7 @@ for n1 in (map |> Seq.filter(fun p -> p.CanGo)) do
     let avail = getAvailable (n1.X, n1.Y)
     for n2 in avail do createLink (n1.Y * W + n1.X) (n2.Y * W + n2.X) 1
 
-    
-    
-
-//
-//
-//let rec getMinPath (coord: int * int) =
-//    let (x, y) = coord
-//    Console.Error.WriteLine("coord = {0}", coord)
-//    let p = map.[y * W + x]
-//    Console.Error.WriteLine("sign {0}; visited {1} canGo {2}", p.Sign, p.Visited, p.CanGo)
-//    if p.Sign = 'E' then Some(0)
-//    else
-//        p.Visited <- true
-//        let avail = getAvailable coord
-//        Console.Error.WriteLine("avail.Length = {0}", avail.Length)
-//        if avail.Length = 0 then None
-//        else
-//            let arrivals = avail |> Seq.map (fun c -> getMinPath c) |> Seq.filter (fun c -> c.IsSome) |> Seq.toArray
-//            Console.Error.WriteLine("arrivals.Length = {0}", arrivals.Length)
-//            if arrivals.Length = 0 then None
-//            else (arrivals |> Seq.minBy(fun a -> a.Value) |> fun min -> Some(min.Value + 1))
-
-//Console.Error.WriteLine("startPoint = {0}", startPoint)
 let res = findPath startNode
 
-(* Write an action using printfn *)
-(* To debug: Console.Error.WriteLine("Debug message") *)
 if res.[exitNode].Dist.IsNone then printfn "Impossible"
 else printfn "%d" res.[exitNode].Dist.Value
